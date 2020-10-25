@@ -24,6 +24,9 @@ export type Annotation = {};
  * metadata for a member. key: string, value: any
  */
 export class Member extends Map<string, any> {
+  constructor() {
+    super();
+  }
   // metadata
   readonly attributes: Array<Attribute> = [];
 }
