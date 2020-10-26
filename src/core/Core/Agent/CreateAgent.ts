@@ -14,7 +14,7 @@ limitations under the License. */
 
 import { CreateAgentInvocation } from './CreateAgentInvocation';
 import { AgentAttribute } from './AgentAttribute';
-import { GetType, RememberType } from '../Knowledge';
+import { GetType, RememberType } from '../Type';
 import { AgentInvocation } from './AgentInvocation';
 import { ClassAttribute } from '../Interfaces/TypeAttributes';
 import { OnDemandTypeInfo } from '../Reflection/OnDemandTypeInfo';

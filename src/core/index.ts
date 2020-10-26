@@ -83,14 +83,14 @@ export { Reflector } from './Core/Reflector';
 
 export { AgentAttribute } from './Core/Agent/AgentAttribute';
 export { CreateAgent } from './Core/Agent/CreateAgent';
-export { GetType, IsAgent } from './Core/Knowledge';
+export { GetType, IsAgent } from './Core/Type';
 
 /*************************************
  *   Wisdom
  *************************************/
-export { memorize } from './Core/Wisdom';
+export { memorize } from './Core/Annotation/Wisdom';
 
 /*************************************
  *   Static Interceptor
  *************************************/
-export { interceptable } from './Core/interceptable';
+export { interceptable } from './Core/Agent/interceptable';

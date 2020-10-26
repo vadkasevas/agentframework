@@ -19,8 +19,9 @@ import { Arguments } from '../Interfaces/Arguments';
 import { ConstructorInvocation } from '../Compiler/Invocation/ConstructorInvocation';
 import { OnDemandClassCompiler } from '../Compiler/OnDemandClassCompiler';
 import { FindExtendedClass } from '../Helpers/FindExtendedClass';
-import { Knowledge, RememberType } from '../Knowledge';
+import { RememberType } from '../Type';
 import { Reflector } from '../Reflector';
+import { Knowledge } from '../Annotation/Knowledge';
 
 /**
  * This attribute is for upgrade class to agent

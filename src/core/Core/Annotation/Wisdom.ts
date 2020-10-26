@@ -12,8 +12,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. */
 
-import { Attribute } from './Interfaces/Attribute';
-import { set } from './Helpers/Prototype';
+import { Attribute } from '../Interfaces/Attribute';
+import { set } from '../Helpers/Prototype';
 
 /**
  *
@@ -38,8 +38,8 @@ export class Property extends Member {
   descriptor?: PropertyDescriptor;
 
   parameters?: Map<number, Parameter>;
-  value?: Member;
 
+  value?: Member;
   getter?: Member;
   setter?: Member;
 
@@ -64,7 +64,6 @@ export class Property extends Member {
       value = propertyDescriptor.value;
       // NOTE: just in case decorate parameter called at first and decorate property called at second
       // if (descriptor && !value.descriptor) {
-      //   console.log('d', value);
       //   value.descriptor = descriptor;
       // }
     } else {
