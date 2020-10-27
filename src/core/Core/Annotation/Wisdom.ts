@@ -164,7 +164,7 @@ export function memorize<T>(agent: Function, key: string, type?: new () => T): T
   let value = Wisdom.get(id);
   /* istanbul ignore else */
   if (!value) {
-    Wisdom.set(id, (value = new (type || WeakMap)()));
+    Wisdom.set(id, (value = Reflect.construct(type || WeakMap, [])));
   }
   // console.log('know', agent, key, '====', value);
   return set(agent, key, value);
