@@ -16,6 +16,6 @@
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["lib", "src", "test", "tools"],
+  "include": ["lib", "src", "tools"],
   "exclude": ["node_modules"]
 }

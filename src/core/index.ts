@@ -52,6 +52,8 @@ export { PropertyAttribute } from './Core/Interfaces/TypeAttributes';
  *   Annotation
  *************************************/
 export { Attribute } from './Core/Interfaces/Attribute';
+//export { AddAttributeToClass, AddAttributeToMember, AddAttributeToConstructorParameter, AddAttributeToMethodParameter } from './Core/Annotation/AddAttribute';
+
 export { MemberKinds } from './Core/Interfaces/MemberKinds';
 export { decorate } from './Core/Decorator/decorate';
 export { decorateClass } from './Core/Decorator/decorateClass';
